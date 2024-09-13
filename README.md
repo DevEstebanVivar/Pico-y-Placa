@@ -7,6 +7,13 @@ Feel free to choose the date/time format you're comfortable with.
 The program should return whether or not that car can be on the road.
 You may use any input and output method you prefer.
 
+## Restricted Hours for the program
+Monday to Friday: 7:00am - 9:30am / 4:00pm - 7:30pm (Restricted Time)
+
+From 9:31am - 3:59pm (Free Time)
+Saturday and Sunday (Free Time)
+
+
 ## Tech Stack
 - React
 - Javascript
