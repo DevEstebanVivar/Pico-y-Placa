@@ -12,9 +12,8 @@ function PicoYPlacaPredictor(licensePlate, date, time) {
 
   // Verificar el día de la semana (0 = Domingo, 6 = Sábado)
   const dayOfWeek = dateObj.getDay();
-
   // Si es fin de semana (sábado o domingo), no hay restricciones
-  if (dayOfWeek === 0 || dayOfWeek === 6) {
+  if (dayOfWeek === 5 || dayOfWeek === 6) {
     return false; // Puede circular siempre en fines de semana
   }
 
@@ -27,19 +26,19 @@ function getRestrictedDay(lastDigit) {
   switch (lastDigit) {
     case 1:
     case 2:
-      return 1; // Lunes
+      return 0; // Lunes
     case 3:
     case 4:
-      return 2; // Martes
+      return 1; // Martes
     case 5:
     case 6:
-      return 3; // Miércoles
+      return 2; // Miércoles
     case 7:
     case 8:
-      return 4; // Jueves
+      return 3; // Jueves
     case 9:
     case 0:
-      return 5; // Viernes
+      return 4; // Viernes
     default:
       return -1; // Día no válido
   }
