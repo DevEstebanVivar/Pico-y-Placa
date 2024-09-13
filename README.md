@@ -8,11 +8,18 @@ The program should return whether or not that car can be on the road.
 You may use any input and output method you prefer.
 
 ## Restricted Hours for the program
-Monday to Friday: 7:00am - 9:30am / 4:00pm - 7:30pm (Restricted Time)
 
-From 9:31am - 3:59pm (Free Time)
-Saturday and Sunday (Free Time)
+| Day        | Restricted License Plate Numbers | Restricted Hours                    |
+|------------|----------------------------------|-------------------------------------|
+| Monday     | 1, 2                             | 07:00am - 09:30am / 4:00pm - 7:30pm |
+| Tuesday    | 3, 4                             | 07:00am - 09:30am / 4:00pm - 7:30pm |
+| Wednesday  | 5, 6                             | 07:00am - 09:30am / 4:00pm - 7:30pm |
+| Thursday   | 7, 8                             | 07:00am - 09:30am / 4:00pm - 7:30pm |
+| Friday     | 9, 0                             | 07:00am - 09:30am / 4:00pm - 7:30pm |
+| Saturday   | Not applicable                   | Not applicable                      |
+| Sunday     | Not applicable                   | Not applicable                      |
 
+Every day cars can circulate freely from 9:31am - 3:59pm
 
 ## Tech Stack
 - React
