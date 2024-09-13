@@ -17,7 +17,12 @@ You may use any input and output method you prefer.
 git clone https://github.com/DevEstebanVivar/Pico-y-Placa.git
 ```
 
-2. Install dependencies
+2. Change to folder
+``` bash
+cd Pico-y-Placa
+```
+
+3. Install dependencies
 ``` bash
 npm install
 ```
